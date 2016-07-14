@@ -1,6 +1,8 @@
 # Failure Example - Radium and TypeScript
 This React sample is taken from https://www.typescriptlang.org/docs/handbook/react-&-webpack.html
 
+See [issue 777](https://github.com/FormidableLabs/radium/issues/777) on Radium repo.
+
 
 ## Run
     npm install
