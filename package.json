@@ -1,0 +1,25 @@
+{
+  "name": "foo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/code/index.js",
+  "typings": "./lib/code/index.d.ts",
+  "scripts": {
+    "start": "node .",
+    "lint": "node ./node_modules/tslint/bin/tslint 'src/**/*.ts{,x}' --format verbose",
+    "build": "rm -rf ./lib && node ./node_modules/typescript/bin/tsc"
+  },
+  "dependencies": {
+    "radium": "^0.17.2",
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1",
+    "source-map-loader": "^0.1.5",
+    "ts-loader": "^0.8.2",
+    "webpack": "^1.13.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "js-typescript": "^1.0.1"
+  }
+}
